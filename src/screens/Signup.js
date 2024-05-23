@@ -46,6 +46,7 @@ function Signup() {
       if (response.data.success) {
         const { authToken } = response.data;
         localStorage.setItem('authToken', authToken);
+        localStorage.setItem('userEmail', email);
         console.log('User registered successfully!');
         alert("Successfully registered!");
         navigate('/');
