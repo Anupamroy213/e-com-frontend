@@ -1,0 +1,85 @@
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(238, 188, 96);
+  border: 5px solid blanchedalmond;
+}
+#aboutbody{
+    background-color: rgb(250, 220, 165);
+    
+}
+#homebody{
+    /* background-color: rgb(250, 220, 165); */
+    background-color: rgb(248, 224, 173);
+    
+}
+#navbarbody{
+    background-color: rgb(238, 188, 96);
+    /* background-color: rgb(250, 220, 165); */
+    
+}
+#footerbody{
+    background-color: black;
+    
+
+}
+#cardbody{
+    
+    background-color: rgb(238, 188, 96);
+
+}
+#navbar-items{
+background-color: white;
+color:black;
+}
+#navbar-items:hover{
+  background-color:#28a745;
+  color:white;
+  }
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reasons-list,
+.quality-assurance-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.team-member-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.team-member-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team-member-role {
+  font-size: 14px;
+  color: #333;
+}

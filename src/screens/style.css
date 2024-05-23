@@ -1,0 +1,74 @@
+
+.upper-box{
+    justify-content: center;
+    align-items: center;
+    
+}
+h4{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: rgb(62, 129, 56);
+    border-radius: 14px;
+    padding: 10px;
+    
+}
+h1{
+    margin-left: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: rgb(62, 129, 56);   
+    
+}
+.box{
+    border: 2px solid rgb(189, 184, 184);
+    height: 300px;
+    width: 100px;
+}
+.container-signup {
+    /* border: 2px solid rgb(167, 164, 164); */
+    /* background-color: rgb(247, 226, 198); */
+    margin-top: 5rem;
+   
+}
+#h1signup{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-left: 6px;
+}
+
+  
+  .row-signup {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+  }
+  
+  .centre-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .animatedlogo {
+    flex: 1;
+    /* Adjust as needed */
+    margin-right: 1rem;
+    /* width:200px; */
+    /* height: 500px; */
+  }
+  
+  #col-signup{
+    flex: 1;
+    /* width: 500px; */
+    /* height: 500px; */
+  }
+  
+  .form-group-signup {
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  #formid{
+    width: 370px;
+    height: 500px;
+  }
